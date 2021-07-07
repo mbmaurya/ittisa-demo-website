@@ -1,0 +1,122 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.fixed-container {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #2f2f2f;
+  z-index: -1;
+}
+
+.fixed-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-container ul li {
+  color: rgba(255, 255, 255, 0.14);
+  font-size: 200px;
+  line-height: 200px;
+  text-align: right;
+  padding-top: calc(100% / 5);
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header starts here */
+
+.header {
+  position: fixed;
+  padding: 30px 0px;
+  width: 100%;
+}
+
+.header .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header .menu {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 7px;
+}
+
+.header .menu .icon {
+  display: inline-block;
+  vertical-align: unset;
+}
+
+.header .menu hr {
+  width: 20px;
+  margin: 0px;
+}
+
+.header .menu hr:first-of-type {
+  width: 20px;
+  margin-bottom: 5px;
+}
+/* header ends here */
+
+/* intro starts here */
+
+.intro {
+  height: 100vh;
+  padding-top: 150px;
+}
+
+.intro .grid-2 {
+  vertical-align: top;
+}
+
+.intro .starter {
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  border-left: 4px solid #fcb642;
+  padding-left: 7px;
+  margin-top: 60px;
+}
+
+.intro .heading {
+  font-family: "PT Serif", serif;
+  font-size: 110px;
+  line-height: 88px;
+  font-weight: 400;
+  color: #fff;
+  margin: 20px 0px 30px 0px;
+}
+
+.intro .heading span {
+  color: #fcb642;
+}
+
+.intro .sub-heading {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  font-weight: 400;
+  width: 70%;
+}
+
+.intro .grid-3 img {
+  width: 100%;
+}
+
+/* intro ends here */

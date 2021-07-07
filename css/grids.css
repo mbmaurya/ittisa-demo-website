@@ -1,0 +1,41 @@
+.grid {
+  display: inline-block;
+  width: calc(100% / 7);
+  border-right: 1px solid #3f3f3f;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  z-index: 0;
+}
+
+.grid-last {
+  border-right: unset;
+}
+
+.grid-container {
+  /* margin-left: calc(100% / 7);
+  margin-right: calc(100% / 7); */
+}
+
+.grid-1 {
+  display: inline-block;
+  width: calc(100% / 7);
+}
+
+.grid-2 {
+  display: inline-block;
+  width: calc((100% / 7) * 2);
+}
+
+.grid-3 {
+  display: inline-block;
+  width: calc((100% / 7) * 3);
+}
+
+.grid-margin-left {
+  margin-left: calc(100% / 7);
+}
+
+.grid-margin-right {
+  margin-right: calc(100% / 7);
+}
